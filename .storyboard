@@ -1,0 +1,16 @@
+{
+    "softLinks": {
+        "androidwear": [],
+        "desktop": [],
+        "mobile": [
+            {
+                "actionId": null,
+                "from": "b4142b171f664182ae35fdabda2f2b35",
+                "softLink": true,
+                "to": "gd1759aff0fc40728173afea18b7d7f2"
+            }
+        ],
+        "tablet": [],
+        "watch": []
+    }
+}

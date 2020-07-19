@@ -1,0 +1,28 @@
+{
+    "AS_UWI_b0f593228cc44098aa6498528a4040e7": {
+        "id": "AS_UWI_b0f593228cc44098aa6498528a4040e7",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "name": "error",
+            "datatype": "collection"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "b4142b171f664182ae35fdabda2f2b35"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "TRY_ACTION_a8034c8ca7f14f569a36162428031172",
+            "type": "TRY_ACTION"
+        }, {
+            "id": "CATCH_ACTION_b006dd8625cb425b92aa7a6b00994683",
+            "catchcode": "catch(ex){ \n\n //Exception handler \n\n}",
+            "type": "CATCH_ACTION"
+        }, {
+            "id": "FINALLY_ACTION_gf559a038f8e43bfa5e39e47ada49f61",
+            "type": "FINALLY_ACTION"
+        }]
+    }
+}

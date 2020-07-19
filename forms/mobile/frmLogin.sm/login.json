@@ -1,0 +1,80 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "s38e2d822fa746dc993836e0551a9a68",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "data": {
+        "facebookCenterX": {
+            "Default": {
+                "type": "string",
+                "value": "40%"
+            }
+        },
+        "facebookSource": "fbicon.png",
+        "ide_loginSuccessEvent": "AS_UWI_e942d2d94f564391aa52d17156093a8b",
+        "ide_onErrorCallback": "AS_UWI_b0f593228cc44098aa6498528a4040e7",
+        "linkedinCenterX": {
+            "Default": {
+                "type": "string",
+                "value": "60%"
+            }
+        },
+        "linkedinSource": "linkedinicon.png",
+        "loginCardBackground": "s29200b1d09d4d0abfce9bb128d16e10",
+        "logoSource": "kony_travel_logo.png",
+        "office365Login": false,
+        "sknbtnLogin": "s6fa67df75874159b96963ba0849f710",
+        "socialBackground": "s2503b82d15b4734923b066428334bc6",
+        "submitButtonText": "Sign In"
+    },
+    "enablescrolling": true,
+    "id": "login",
+    "info": null,
+    "issegmentchild": false,
+    "isvisible": true,
+    "kuid": "d88f8ba51a054912865214afde9f14f1",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmLogin",
+    "pf": "frmLogin",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "cd4834da3fd340b8a65f483ef9d593a7",
+    "wType": "UserWidgetInstance"
+}

@@ -1,0 +1,191 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_data_": [
+        [
+            {
+                "imgSectionIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "plane_icon_color.png"
+                },
+                "lblSectionBar": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "2 Upcoming Flights"
+                }
+            },
+            [
+                {
+                    "lblFlightDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Friday, Sept 12, 2020"
+                    },
+                    "lblFlightInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LGA to MIA (GKSVBS)"
+                    }
+                },
+                {
+                    "lblFlightDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Sunday, Sept 21, 2020"
+                    },
+                    "lblFlightInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "MIA to LGA (GKSVBS)"
+                    }
+                },
+                {
+                    "lblFlightDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Monday, Sept 29, 2020"
+                    },
+                    "lblFlightInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "LGA to ORD (M4FY7F)"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "imgSectionIcon": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "hotel_icon_color.png"
+                },
+                "lblSectionBar": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "9 Upcoming Reservations"
+                }
+            },
+            [
+                {
+                    "lblFlightDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Friday, Sept 12 - Wednesday, Sept 17, 2020"
+                    },
+                    "lblFlightInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Westin Birmingham"
+                    }
+                },
+                {
+                    "lblFlightDate": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Wednesday, Sept 17 - Sunday, Sept 21, 2020"
+                    },
+                    "lblFlightInfo": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Sheraton Atlanta Downtown"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "93dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 1,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "11",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "segUpcomingTrips",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "ac41d139623a41f993b456e79a525679",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxScrollMainContainer",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "f0c75246f8d94fa097eebdd90af009ba",
+    "rowcounter": 1,
+    "rowfocusskin": "se5d91ebbd2c4bf48c463aae63bd81ce",
+    "rowskin": "s58fe884a8ea4921a7e8b0fb1a08ff84",
+    "rowtemplate": "flxBookedTrips",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "d56e90a731894c85891fd9694a2a9a7c",
+    "sectionheaderskin": "s162a0c09c064738a4889978c11daea3",
+    "sectionheadertemplate": "segSectionBar",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxBookedTrips": "flxBookedTrips",
+        "flxSectionIcon": "flxSectionIcon",
+        "flxSegSectionBar": "flxSegSectionBar",
+        "imgSectionIcon": "imgSectionIcon",
+        "lblFlightDate": "lblFlightDate",
+        "lblFlightInfo": "lblFlightInfo",
+        "lblSectionBar": "lblSectionBar",
+        "segSectionBar": "segSectionBar"
+    },
+    "zindex": 10
+}

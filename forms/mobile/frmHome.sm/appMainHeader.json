@@ -1,0 +1,98 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sdc2ad6103c545c7bf62b54e049b9f9e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "areflexpropsreferenced": true,
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "clipbounds": true,
+    "containerweight": 0,
+    "dataDiffs": {
+        "appMainHeader": {
+            "__events__": {},
+            "__info__": {
+                "isRoot": true,
+                "kuid": "a054fd1814b943869c1cad9d8a2b1bf4",
+                "srcKUID": "a5f379c25d2e49e1b18128f4b5ecc21e",
+                "wType": "FlexContainer"
+            }
+        },
+        "flxMenuBtn": {
+            "__events__": {
+                "ide_onClick": "AS_FlexContainer_j34c48b0a9124ffdbfd957fe3ef5e222"
+            },
+            "__info__": {
+                "kuid": "i784091db3c540a5847f3f845c2af628",
+                "srcKUID": "j5211f6e8487499abf320111732a5960",
+                "wType": "FlexContainer"
+            }
+        },
+        "imgMenuIcon": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "ifd2d5393e3446d29f9182ffb5488ed0",
+                "srcKUID": "i3ed421178914b0b9c6c09634fd02817",
+                "wType": "Image"
+            }
+        },
+        "lblHeaderTitle": {
+            "__events__": {},
+            "__info__": {
+                "kuid": "f2fde9a865a043439888b56dcfda8dae",
+                "srcKUID": "a485f4d535784b418b58ffd431ed2948",
+                "wType": "Label"
+            }
+        }
+    },
+    "enablescrolling": true,
+    "id": "appMainHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isdatareferenced": false,
+    "isvisible": true,
+    "kuid": "a054fd1814b943869c1cad9d8a2b1bf4",
+    "layouttype": 2,
+    "masterType": 0,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxHomeContent",
+    "pf": "frmHome",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "sourceUserWidget": "a5f379c25d2e49e1b18128f4b5ecc21e",
+    "wType": "UserWidgetInstance"
+}

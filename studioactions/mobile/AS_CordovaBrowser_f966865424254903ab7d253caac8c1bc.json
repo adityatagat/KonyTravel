@@ -1,0 +1,23 @@
+{
+    "AS_CordovaBrowser_f966865424254903ab7d253caac8c1bc": {
+        "id": "AS_CordovaBrowser_f966865424254903ab7d253caac8c1bc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "gd1759aff0fc40728173afea18b7d7f2"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_e61602b3a9754c69aa3f2b4f5baa4c15",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.setData()",
+            "parentId": null
+        }]
+    }
+}

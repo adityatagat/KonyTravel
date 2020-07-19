@@ -1,0 +1,27 @@
+<!--Code Snippet from Kony Training Material representing existing Cordova App -->
+
+<!DOCTYPE html>
+<html>
+  	<head>
+	</head>
+	<body style='margin:1px; padding:0px;'>
+		<div id = "slideshowdiv" style="max-width:500px">
+		</div>
+		 <script type="text/javascript"> 
+			var slideIndex = 0
+       
+        	function showSlides() {
+           	 var i;
+            	var slides = document.getElementsByClassName("mySlides");
+            	for (i = 0; i < slides.length; i++) {
+                	slides[i].style.display = "none"; 
+            	}
+            	slideIndex++;
+            	if (slideIndex> slides.length) {slideIndex = 1} 
+            	slides[slideIndex-1].style.display = "block"; 
+            	setTimeout(showSlides, 1000); // Change image every 2 seconds
+        	}
+        	
+		</script>
+	</body>	
+</html>
